@@ -1,8 +1,8 @@
-CONF_DIR=/etc/elasticsearch/sm-logging-server-0
+CONF_DIR=/etc/elasticsearch
 DATA_DIR=/var/lib/elasticsearch
-ES_GROUP=baselsch
+ES_GROUP=elasticsearch
 ES_HOME=/usr/share/elasticsearch
 ES_USER=baselsch
-LOG_DIR=/var/log/elasticsearch/sm-logging-server-0
+LOG_DIR=/var/log/elasticsearch
 MAX_LOCKED_MEMORY=infinity
 MAX_OPEN_FILES=65536
