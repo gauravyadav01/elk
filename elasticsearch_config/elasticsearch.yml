@@ -1,0 +1,19 @@
+### MANAGED BY PUPPET ###
+---
+bootstrap.memory_lock: true
+cluster.name: cluster
+discovery.zen.minimum_master_nodes: 1
+discovery.zen.ping.unicast.hosts:
+- 192.168.51.153
+- 192.168.51.99
+gateway.expected_nodes: 3
+gateway.recover_after_nodes: 1
+gateway.recover_after_time: 1s
+http.cors.allow-origin: "*"
+http.cors.enabled: true
+http.port: 9200
+network.host: sm-logging-server-0.node.local.consul
+node.name: sm-logging-server-0
+path.data: "/apps/elasticsearch/data/sm-logging-server-0"
+path.logs: "/var/log/elasticsearch/sm-logging-server-0"
+
